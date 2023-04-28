@@ -33,7 +33,7 @@ gamma = np.array([0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
 
 #this sets up network things
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-server_address = '10.0.0.233'
+server_address = '4.3.2.1'
 server_port = 21324
 server = (server_address, server_port)
 #this is the protocol # for the dnrgb protocol
